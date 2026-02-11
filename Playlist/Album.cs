@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Playlist
 {
-    internal class Album
+    class Album
     {
+        public string NomeAlbum { get; set; }
+        public Artista Artista { get; set; }
+        public int MyProperty { get; set; }
+        public int MyProperty { get; set; }
+        public int MyProperty { get; set; }
+        public int MyProperty { get; set; }
     }
 }
