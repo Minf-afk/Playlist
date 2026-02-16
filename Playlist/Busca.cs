@@ -8,9 +8,7 @@ namespace Playlist
     public class Busca
     {
         public int index { get;}
-        public int MyProperty1 { get; set; }
-        public int MyProperty2 { get; set; }
-        public int MyProperty3 { get; set; }
-        public int MyProperty4 { get; set; }
+        public string BuscaNome { get; set; }
+        public string BuscaNumero { get; set; }
     }
 }
